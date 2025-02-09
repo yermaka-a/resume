@@ -8,12 +8,25 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0; /* Remove default margin */
             background-color: #f4f4f4;
             color: #333;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Full viewport height */
+        }
+        .container {
+            max-width: 800px; /* Set a maximum width */
+            width: 100%; /* Full width up to max */
+            background-color: white; /* Background for the content */
+            padding: 20px; /* Padding inside the container */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
         }
         h1 {
             color: #4CAF50;
+            text-align: center; /* Center the main title */
         }
         h2 {
             border-bottom: 2px solid #4CAF50;
@@ -44,76 +57,79 @@
 </head>
 <body>
 
-<h1>Resume</h1>
+<div class="container">
+    <h1>Resume</h1>
 
-<p><strong>Ermak Erofeev</strong></p>
-<p>2nd Year Student, Major in Information Technology 🎓</p>
-<p>Email: <a href="mailto:ermak.080@mail.ru">ermak.080@mail.ru</a> | Phone: +79968933003 | City: Angarsk</p>
-<p><a href="https://t.me/yermaka">Telegram Profile</a> | <a href="https://github.com/yermaka-a">GitHub Profile</a></p>
+    <p><strong>Ermak Erofeev</strong></p>
+    <p>2nd Year Student, Major in Information Technology 🎓</p>
+    <p>Email: <a href="mailto:ermak.080@mail.ru">ermak.080@mail.ru</a> | Phone: +79968933003 | City: Angarsk</p>
+    <p><a href="https://t.me/yermaka">Telegram Profile</a> | <a href="https://github.com/yermaka-a">GitHub Profile</a></p>
 
-<hr>
+    <hr>
 
-<h2>Objective</h2>
-<p>Aspiring to secure an internship or junior developer position in programming and web development 🌍 to apply my knowledge and skills while growing within a team of professionals.</p>
+    <h2>Objective</h2>
+    <p>Aspiring to secure an internship or junior developer position in programming and web development 🌍 to apply my knowledge and skills while growing within a team of professionals.</p>
 
-<h2>Education</h2>
-<p><strong>Angarsk state technical university (ASTU)</strong></p>
-<p>Degree: Bachelor (2nd Year) <br> Major: Information Technology 📚 <br> 2023 - Present</p>
+    <h2>Education</h2>
+    <p><strong>Angarsk State Technical University (ASTU)</strong></p>
+    <p>Degree: Bachelor (2nd Year) <br> Major: Information Technology 📚 <br> 2023 - Present</p>
 
-<h2>Skills</h2>
-<ul>
-    <li><strong>Programming Languages</strong>:Go, Python, JavaScript, Typescript, C/C++, GNU Assembler 🖥️</li>
-    <li><strong>Web Technologies</strong>: ReactTs, HTML, CSS, SCSS, SASS, Canvas API, Webpack 🌐</li>
-    <li><strong>Tools and Technologies</strong>: Git, Linux, Cisco Packet Tracer, Vite, Axios, Zustand ⚙️</li>
-    <li><strong>Languages</strong>: English (Pre-Intermediate B1) 🇬🇧</li>
-</ul>
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>Programming Languages</strong>: Go, Python, JavaScript, TypeScript, C/C++, GNU Assembler 🖥️</li>
+        <li><strong>Web Technologies</strong>: ReactTS, HTML, CSS, SCSS, SASS, Canvas API, Webpack 🌐</li>
+        <li><strong>Tools and Technologies</strong>: Git, Linux, Cisco Packet Tracer, Vite, Axios, Zustand ⚙️</li>
+        <li><strong>Languages</strong>: English (Pre-Intermediate B1) 🇬🇧</li>
+    </ul>
 
-<h2>Projects</h2>
+    <h2>Projects</h2>
 
-<div class="project">
-    <h3>1. Transport Demand Assessment</h3>
-    <p><strong>Description</strong>: Developed a Python program for assessing transport demand using matrix models. This project involved data analysis and algorithmic implementation to provide insights into transportation needs. 🚗</p>
-    <p><a href="https://gitflic.ru/project/yermaka/raschet-modelei?branch=models_tree">GitFlic Project</a></p>
+    <div class="project">
+        <h3>1. Transport Demand Assessment</h3>
+        <p><strong>Description</strong>: Developed a Python program for assessing transport demand using matrix models. This project involved data analysis and algorithmic implementation to provide insights into transportation needs. 🚗</p>
+        <p><a href="https://gitflic.ru/project/yermaka/raschet-modelei?branch=models_tree">GitFlic Project</a></p>
+    </div>
+
+    <div class="project">
+        <h3>2. Nonograms</h3>
+        <p><strong>Description</strong>: Created a "Nonograms" game (Japanese
+        <p><strong>Description</strong>: Created a "Nonograms" game (Japanese crossword) using native JavaScript with Canvas API and Webpack. This project enhanced my skills in game development and interactive design. 🧩</p>
+        <p><a href="https://github.com/yermaka-a/nonograms">Play Nonograms</a></p>
+    </div>
+
+    <div class="project">
+        <h3>3. Coffee Shop</h3>
+        <p><strong>Description</strong>: Developed a web application called "Coffee Shop" entirely in native JavaScript. This project focused on creating a user-friendly interface and enhancing my front-end development skills. ☕</p>
+        <p><a href="https://github.com/yermaka-a/coffee-house-week">Visit Coffee Shop</a></p>
+    </div>
+
+    <div class="project">
+        <h3>4. Hangman</h3>
+        <p><strong>Description</strong>: Built a "Hangman" game using native JavaScript. This project helped me understand game logic and improve my coding efficiency. 🎮</p>
+        <p><a href="https://github.com/yermaka-a/hangman">Play Hangman</a></p>
+    </div>
+
+    <div class="project">
+        <h3>5. Travel Advisor</h3>
+        <p><strong>Description</strong>: Developed a travel service application using React and TypeScript, incorporating features like maps and data management. This project allowed me to delve deeper into modern web development practices. ✈️</p>
+        <p><a href="https://gitflic.ru/project/yermaka/react-advisor/blob?file=README.md&branch=master&mode=markdown">Explore Travel Advisor</a></p>
+    </div>
+
+    <h2>Research Work</h2>
+    <p><strong>Topic</strong>: Development of a Statistical Data Visualization Tool 📊</p>
+    <p><a href="https://angtu.editorum.ru/ru/nauka/article/84184/view">View Article</a></p>
+
+    <h2>Additional Information</h2>
+    <ul>
+        <li>I regularly write articles on various topics at my university, covering both IT and humanities subjects. 📝</li>
+        <li>Actively learning new programming languages and technologies, I am eager to expand my knowledge in the IT field. 🚀</li>
+    </ul>
+
+    <h2>Personal Qualities</h2>
+    <ul>
+        <li>Responsible, goal-oriented, team player, and quick learner. 🌟</li>
+    </ul>
 </div>
-
-<div class="project">
-    <h3>2. Nonograms</h3>
-    <p><strong>Description</strong>: Created a "Nonograms" game (Japanese crossword) using native JavaScript with Canvas API and Webpack. This project enhanced my skills in game development and interactive design. 🧩</p>
-    <p><a href="https://github.com/yermaka-a/nonograms">Play Nonograms</a></p>
-</div>
-
-<div class="project">
-    <h3>3. Coffee Shop</h3>
-    <p><strong>Description</strong>: Developed a web application called "Coffee Shop" entirely in native JavaScript. This project focused on creating a user-friendly interface and enhancing my front-end development skills. ☕</p>
-    <p><a href="https://github.com/yermaka-a/coffee-house-week">Visit Coffee Shop</a></p>
-</div>
-
-<div class="project">
-    <h3>4. Hangman</h3>
-    <p><strong>Description</strong>: Built a "Hangman" game using native JavaScript. This project helped me understand game logic and improve my coding efficiency. 🎮</p>
-     <p><a href="https://github.com/yermaka-a/hangman">Play Hangman</a></p>
-</div>
-
-<div class="project">
-    <h3>5. Travel Advisor</h3>
-    <p><strong>Description</strong>: Developed a travel service application using React and TypeScript, incorporating features like maps and data management. This project allowed me to delve deeper into modern web development practices. ✈️</p>
-    <p><a href="https://gitflic.ru/project/yermaka/react-advisor/blob?file=README.md&branch=master&mode=markdown">Explore Travel Advisor</a></p>
-</div>
-
-<h2>Research Work</h2>
-<p><strong>Topic</strong>: Development of a Statistical Data Visualization Tool 📊</p>
-<p><a href="https://angtu.editorum.ru/ru/nauka/article/84184/view">View Article</a></p>
-
-<h2>Additional Information</h2>
-<ul>
-    <li>I regularly write articles on various topics at my university, covering both IT and humanities subjects. 📝</li>
-    <li>Actively learning new programming languages and technologies, I am eager to expand my knowledge in the IT field. 🚀</li>
-</ul>
-
-<h2>Personal Qualities</h2>
-<ul>
-    <li>Responsible, goal-oriented, team player, and quick learner. 🌟</li>
-</ul>
 
 </body>
 </html>
