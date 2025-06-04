@@ -1,7 +1,7 @@
 # Resume
 
 **Ermak Erofeev**  
-2nd Year Student, Major in Information Technology 🎓  
+3rd Year Student, Major in Information Technology 🎓  
 Email: ermak.080@mail.ru | Phone: +79968933003 | City: Angarsk
 [Telegram Profile](https://t.me/yermaka) | [GitHub Profile](https://github.com/yermaka-a)
 
@@ -14,7 +14,7 @@ Aspiring to secure an internship or junior developer position in programming and
 
 ## Education
 **[Your University Name]**  
-Degree: Bachelor (2nd Year)  
+Degree: Bachelor (3rd Year)  
 Major: Information Technology 📚  
 [Start Year] - Present
 
